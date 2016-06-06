@@ -1,10 +1,10 @@
 # fsuxx
 
-[![npm version](https://badge.fury.io/js/fsuxx.svg)](https://badge.fury.io/js/fsuxx) [![Build Status](https://travis-ci.org/hobbyquaker/fsuxx.svg?branch=master)](https://travis-ci.org/hobbyquaker/fsuxx)
+[![npm version](https://badge.fury.io/js/fsuxx.svg)](https://badge.fury.io/js/fsuxx) 
+[![Bower Version](https://badge.fury.io/bo/fsuxx.svg)](http://badge.fury.io/bo/fsuxx)
+[![Build Status](https://travis-ci.org/hobbyquaker/fsuxx.svg?branch=master)](https://travis-ci.org/hobbyquaker/fsuxx)
 
-> Takes a number and returns fixed digit string
-
-Available via bower and npm.
+> Trivially round a number and return fixed digit string :whale:
 
 ## Examples
 
