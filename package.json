@@ -1,7 +1,7 @@
 {
   "name": "fsuxx",
   "version": "1.1.0",
-  "description": "Round float and return fixed digit string",
+  "description": "Trivially round a number and return fixed digit string",
   "main": "fsuxx.js",
   "scripts": {
     "test": "./test.js"

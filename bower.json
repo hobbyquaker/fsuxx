@@ -1,6 +1,6 @@
 {
   "name": "fsuxx",
-  "description": "Round float and return fixed digit string",
+  "description": "Trivially round a number and return fixed digit string",
   "main": "fsuxx.js",
   "authors": [
     "Sebastian Raff <hq@ccu.io> (https://github.com/hobbyquaker)"
