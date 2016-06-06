@@ -6,7 +6,7 @@
 
 > Trivially round a number and return fixed digit string :whale:
 
-## Examples
+### Examples
 
 ```javascript
 var fsuxx = require("fsuxx");
@@ -18,9 +18,9 @@ console.log(fsuxx(0.199000000000000004, 2, true, true));    // "0,20"
 ```
 
 
-## Documentation
+### Documentation
 
-### fsuxx(num, [digits, [trailing, [comma]]]) ⇒ <code>string</code>
+#### fsuxx(num, [digits, [trailing, [comma]]]) ⇒ <code>string</code>
 Takes a number and returns a rounded fixed digit string. Returns an empty string if first parameter is (-)Infinity or 
 parseFloat results in NaN. If parameter trailing is set to true trailing zeros will be kept.
 
@@ -32,6 +32,6 @@ parseFloat results in NaN. If parameter trailing is set to true trailing zeros w
 | [comma] | <code>boolean</code> | <code>false</code> | use comma as decimal separator |
 
 
-## License
+### License
 
 MIT (c) Sebastian Raff https://github.com/hobbyquaker
