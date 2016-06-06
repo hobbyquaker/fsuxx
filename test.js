@@ -31,11 +31,13 @@ test(fsuxx(), '');
 test(fsuxx(NaN), '');
 test(fsuxx(Infinity), '');
 test(fsuxx({bla: 'blub'}), '');
-test(fsuxx([1,2,3]), '');
+test(fsuxx({1: 2}), '');
+test(fsuxx([1, 2, 3]), '1');
 test(fsuxx(6.8999999999999995), '6.9');
 test(fsuxx(0.199000000000000004), '0.199');
 test(fsuxx(0.199000000000000004, 2), '0.2');
 test(fsuxx(0.199000000000000004, 2, true), '0.20');
+test(fsuxx(0.199000000000000004, 2, true, true), '0,20');
 
 if (!testFailed) {
     console.log('✔ All tests passed.');
