@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/fsuxx.svg)](https://badge.fury.io/js/fsuxx) [![Build Status](https://travis-ci.org/hobbyquaker/fsuxx.svg?branch=master)](https://travis-ci.org/hobbyquaker/fsuxx)
+
 > Takes a number and returns fixed digit string
 
 # Examples
