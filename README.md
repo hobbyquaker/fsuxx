@@ -4,6 +4,8 @@
 
 > Takes a number and returns fixed digit string
 
+Available via bower and npm.
+
 ## Examples
 
 ```javascript
