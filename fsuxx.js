@@ -32,4 +32,12 @@ function fsuxx(num, digits, trailing, comma) {
     return res;
 }
 
-module.exports = fsuxx;
+if (typeof define === 'function' && define.amd) {
+    // export as AMD module
+    define(fsuxx);
+} else if (typeof module !== 'undefined') {
+    // export as node module
+    module.exports = fsuxx;
+} else {
+    window.fsuxx = fsuxx;
+}
