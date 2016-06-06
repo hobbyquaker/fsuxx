@@ -9,9 +9,10 @@
 ```javascript
 var fsuxx = require("fsuxx");
 
-console.log(fsuxx(0.199000000000000004));           // "0.199"
-console.log(fsuxx(0.199000000000000004, 2));        // "0.2"
-console.log(fsuxx(0.199000000000000004, 2, true));  // "0.20"
+console.log(fsuxx(0.199000000000000004));                   // "0.199"
+console.log(fsuxx(0.199000000000000004, 2));                // "0.2"
+console.log(fsuxx(0.199000000000000004, 2, true));          // "0.20"
+console.log(fsuxx(0.199000000000000004, 2, true, true));    // "0,20"
 ```
 
 
