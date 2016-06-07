@@ -3,6 +3,7 @@
 [![npm version](https://badge.fury.io/js/fsuxx.svg)](https://badge.fury.io/js/fsuxx) 
 [![Bower Version](https://badge.fury.io/bo/fsuxx.svg)](http://badge.fury.io/bo/fsuxx)
 [![Build Status](https://travis-ci.org/hobbyquaker/fsuxx.svg?branch=master)](https://travis-ci.org/hobbyquaker/fsuxx)
+[![License][mit-badge]][mit-url]
 
 > Trivially round a number and return fixed digit string :whale:
 
@@ -35,3 +36,6 @@ parseFloat results in NaN. If parameter trailing is set to true trailing zeros w
 ### License
 
 MIT (c) Sebastian Raff https://github.com/hobbyquaker
+
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
+[mit-url]: LICENSE
